@@ -1,0 +1,23 @@
+{
+  "name" : "nia/locating",
+  "description" : "Locating component provides locators which are used to locate a resource by name over several places.",
+  "require" : {
+    "php" : ">=7.0.0"
+  },
+  "license" : "MIT",
+  "keywords" : [ "nia", "locate", "locating", "files", "directory", "folder" ],
+  "minimum-stability" : "dev",
+  "autoload" : {
+    "psr-4" : {
+      "Nia\\Locating\\" : "sources/",
+      "Test\\Nia\\Locating\\" : "tests/"
+    }
+  },
+  "type" : "library",
+  "homepage" : "http://www.nat-software.de",
+  "authors" : [ {
+    "name" : "Patrick Ullmann",
+    "email" : "patrick.ullmann@nat-software.de",
+    "role" : "lead"
+  } ]
+}
